@@ -1,0 +1,24 @@
+:root{
+    --barra:#ffffff;
+    --botones:#FC8896;
+    --fondo: #d2b7d6;
+    --resaltar:#68E9FA;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--fondo); /* Crema Mantequilla */
+    color:#F9F5F6; /* Marrón Panadero */
+}
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #E74C3C; /* Rojo Tomate */
+    color: #FFF5E1; /* Crema Mantequilla */
+    padding: 10px 20px;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+

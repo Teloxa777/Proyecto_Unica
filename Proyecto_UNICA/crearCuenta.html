@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Fresca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="stylesheet" href="/assets/css/footer.css">
+   <link rel="stylesheet" href="/assets/css/header.css">
+   <link rel="stylesheet" href="/assets/css/nav.css">
+   <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/contacto.css">
+
+</head>
+<body>
+    <header>
+        <img src="/assets/imagenes/fondo-pan.jpeg" alt="">
+        <h1>Panadería Fresca</h1>
+        <p>Los mejores panes directos del horno a tu casa.</p>
+    </header>
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/productos.html">Productos</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contacto</a>
+        <a href="/inicioSecion.html">Iniciar Secion</a>
+    </nav>
+    <main>
+        <section class="contacto">
+            <h3>Crear Cuenta</h3>
+            <hr/>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/mlekqyav" method="POST">
+                <label>
+                    Your name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Your phone number:
+                    <input type="number" name="phone">
+                </label>
+
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your password:
+                    <input type="password">
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Crear</button>
+            </form>
+            <div>
+                <a href="/inicioSecion.html" id="crearCuenta">Iniciar Sesion</a>
+            </div>
+            <nav id="social-media">
+                <a href="https://www.facebook.com">
+                    <img id="face" src="/assets/imagenes/facelogo.png" />
+                </a>
+                <a href="https://www.tiktok.com/es">
+                    <img id="tik" src="/assets/imagenes/tiktoklogo.png"/>
+                </a>
+
+            </nav>
+            
+            
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Panadería Fresca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
