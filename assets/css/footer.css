@@ -1,5 +1,9 @@
 footer {
-    background-color: var(--resaltar); /* Trigo Dorado */
+    background-color: var(--marron-panadero);
     padding: 1rem 0;
     text-align: center;
+}
+
+footer p{
+    color: var(--white);
 }

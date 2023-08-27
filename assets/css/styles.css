@@ -1,24 +1,25 @@
-:root{
-    --barra:#ffffff;
-    --botones:#FC8896;
-    --fondo: #d2b7d6;
-    --resaltar:#68E9FA;
+:root {
+    --marron-panadero: #A67C52;
+    --trigo-dorado: #F5DEB3;
+    --crema-mantequilla: #FFF5E1;
+    --verde-campo: #7C9F35;
+    --rojo-tomate: #E74C3C;
+    --black: #000;
+    --white: #FFF;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--fondo); /* Crema Mantequilla */
-    color:#F9F5F6; /* Marrón Panadero */
+    background-color: var(--crema-mantequilla); 
+    color: var(--marron-panadero); 
 }
-
 
 .cta-button {
     display: inline-block;
-    background-color: #E74C3C; /* Rojo Tomate */
-    color: #FFF5E1; /* Crema Mantequilla */
+    background-color: var(--rojo-tomate); 
+    color: var(--crema-mantequilla); 
     padding: 10px 20px;
     margin-top: 1rem;
     text-decoration: none;
     border-radius: 8px;
 }
-
