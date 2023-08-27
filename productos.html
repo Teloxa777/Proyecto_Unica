@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/Pro-Destacados.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-   
-<body>
+    <link rel="stylesheet" href="/assets/css/productos.css">
+<body style="background-color: var(--trigo-dorado);">
     <header>
         <img src="/assets/imagenes/fondo-pan.jpeg" alt="">
         <h1>Panadería Fresca</h1>
@@ -26,8 +25,20 @@
         <a href="#">Contacto</a>
         <a href="/inicioSecion.html">Iniciar Secion</a>
     </nav>
-    <main>
-        <div class="container mt-5">
+
+    <nav style="background-color: var(--trigo-dorado);">
+        <button class="btn" style="background-color: var(--marron-panadero)"><a href="/crearProducto.html">Crear Producto</a></button>
+        <button class="btn" style="background-color: var(--marron-panadero);" ><a href="#">Ver el Carrito</a></button>
+        <button class="btn" style="background-color: var(--marron-panadero);"></button>
+    </nav>
+    </div>
+
+    <hr>
+    <h1 class="row justify-content-center">
+        Productos.
+    </h1>
+    <main style="background-color: var(--trigo-dorado);">
+        <div class="container mt-5" style="background-color: var(--marron-panadero);">
             <div class="row">
                 <!-- Producto 1 -->
                 <div class="col-md-3">
@@ -39,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Producto 2, 3, 4... puedes repetir el bloque anterior según necesites -->
+                
                 <div class="col-md-3">
                     <div class="card">
                         <img src="/assets/imagenes/pastel.png" class="card-img-top" alt="...">
@@ -143,6 +154,7 @@
         </div>
 
     </main>
+    <hr>
     <footer>
         <p>&copy; 2023 Panadería Fresca. Todos los derechos reservados.</p>
     </footer>
