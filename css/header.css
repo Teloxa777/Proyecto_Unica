@@ -1,8 +1,9 @@
 header {
+    background-color: var(--marron-panadero);
     padding: 8rem 0 3rem;
     position: relative;
     overflow: hidden;
-    background-color: var(--botones); /* Marrón Panadero */
+
     color: white;
 
     text-align: center;

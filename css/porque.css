@@ -3,11 +3,13 @@
     margin-top: 4rem;
 }
 #argumentos{
-    color: black;
+    color: var(--marron-panadero);
+    background-color: var(--trigo-dorado);
+    
     border-radius: 2rem;
     padding: 1rem;
     margin: 2rem;
-    background-color: var(--barra);
+
 
     display: grid;
     grid-template-columns: 1fr 1fr ;
