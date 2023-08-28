@@ -1,0 +1,15 @@
+nav {
+    background-color: var(--verde-campo);
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: var(--crema-mantequilla);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--rojo-tomate); /* Cambia al color que prefieras */
+}
