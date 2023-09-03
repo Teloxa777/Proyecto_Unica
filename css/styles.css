@@ -1,17 +1,29 @@
 :root {
-    --marron-panadero: #A67C52;
-    --trigo-dorado: #F5DEB3;
+    --negro: #000;
+    --casi-negro: #1e1e1e;
+    --gris: #888888;
+    --blanco: #FFFFFF;
     --crema-mantequilla: #FFF5E1;
-    --verde-campo: #7C9F35;
+    --trigo-dorado: #F5DEB3;
+    --marron-panadero: #A67C52;
     --rojo-tomate: #E74C3C;
-    --black: #000;
-    --white: #FFF;
+    --naranja-casi-pastel: #FFA05B;
+    --amarillo-mostaza: #F2C032;
+    --verde-campo: #7C9F35;
+    --velde: #ACC57A;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--crema-mantequilla); 
-    color: var(--marron-panadero); 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--crema-mantequilla);
+    color: var(--casi-negro);
+    
 }
 
 .cta-button {

@@ -18,12 +18,9 @@
     }
 }
 #Pro-Destacados img{
-
-
     border-radius: 1rem;
     max-width: 15rem;
     cursor: context-menu;
-
 
 }
 
@@ -34,7 +31,7 @@
 }
 #Pro-Destacados span{
     background-color: var(--verde-campo);
-    color: var(--black);
+    color: var(--casi-negro);
 
     width: 120px;
 
